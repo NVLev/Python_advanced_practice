@@ -2,7 +2,7 @@ import subprocess
 
 
 def run_program():
-    res = subprocess.run(['python', 'test_curl.py'], stderr=subprocess.STDOUT)
+    res = subprocess.Popen(['python', 'ps_a_commandd.py'])
     print(res)
 
 
